@@ -66,8 +66,7 @@ main() {
   print("\n");
 
 
-  Teacher TeacherManagementSystem = Teacher(
-      "007", ['Bangla', 'Math', 'English']);
+  Teacher TeacherManagementSystem = Teacher("007", ['Bangla', 'Math', 'English']);
   TeacherManagementSystem.displayRole();
   print("Name:${TeacherManagementSystem.name}");
   print("Age:${TeacherManagementSystem.age}");
