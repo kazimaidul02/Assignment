@@ -27,8 +27,8 @@ class Student extends Person {
   }
   double averageScore(){
     int sum=0;
-    for (var score in courseScores){
-      sum+=score;}
+    for (var number in courseScores){
+      sum+=number;}
     return(sum/courseScores.length);
   }
 }
@@ -60,8 +60,7 @@ main() {
   print("Student ID:${StudentManagementSystem.studentID}");
   print("Grade: ${StudentManagementSystem.grade}");
   print(
-      "Average Score: ${StudentManagementSystem.averageScore().toStringAsFixed(
-          2)}");
+      "Average Score: ${StudentManagementSystem.averageScore().toStringAsFixed(2)}");
 
   print("\n");
 
